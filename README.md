@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Version](https://img.shields.io/badge/version-0.0.4-blue.svg)](https://github.com/Junlin-Robin/quick-man)
+[![Version](https://img.shields.io/badge/version-0.0.6-blue.svg)](https://github.com/Junlin-Robin/quick-man)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Junlin-Robin/quick-man/blob/main/LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/react-18.2.0-61dafb.svg)](https://reactjs.org/)
