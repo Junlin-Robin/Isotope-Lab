@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.3",
   "type": "module",
-  "homepage": "https://junlin-robin.github.io/quick-man/",
+  "homepage": "https://junlin-robin.github.io/isotope-lab/",
   "engines": {
     "node": ">=18.0.0"
   },
