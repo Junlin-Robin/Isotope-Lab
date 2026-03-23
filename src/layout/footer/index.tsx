@@ -1,4 +1,4 @@
-import { Layout } from "antd";
+import { Divider, Flex, Layout, Typography } from "antd";
 
 interface Iprops {
   style?: React.CSSProperties;
@@ -10,13 +10,18 @@ export default function Footer(props: Iprops) {
 
   return (
     <Layout.Footer style={{ ...style }} className={className}>
-      <div style={{ width: '100%', textAlign: 'center', fontSize: '13px', fontWeight: 320, lineHeight: '26px' }}>
-        Design by <a href="https://github.com/Junlin-Robin/quick-man" target="_blank">Junlin-W</a>
-        <br />
-        管理员：<a href="mailto:2239520855@qq.com">Zhuofan</a>
-        <br />
-        @版权所有
-      </div>
+      <Divider style={{ fontSize: '15px', color: '#8a9099', fontWeight: 350 }}>欢迎使用，如果这个项目对您有帮助，请给我们一个 ⭐️</Divider>
+      <Flex justify="center">
+        Isotope Lab | 同位素实验室
+      </Flex>
+      <Flex justify="center">
+        南京大学地球科学与工程学院 魏海珍 课题组
+      </Flex>
+      <Flex justify="center" align="center">
+        <div>
+          Copyright © <Typography.Link href="https://github.com/Junlin-Robin" target="_blank">王俊霖</Typography.Link> and <Typography.Link href="mailto:haizhenwei@nju.edu.cn">魏海珍</Typography.Link> 2024-present
+        </div>
+      </Flex>
     </Layout.Footer>
   );
 }

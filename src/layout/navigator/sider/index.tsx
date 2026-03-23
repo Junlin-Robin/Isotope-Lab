@@ -18,7 +18,7 @@ interface Iprops {
 }
 
 export default function Sider(props: Iprops) {
-  const { collapsed, isLargerThanMinWidth, style } = props;
+  const { collapsed, isLargerThanMinWidth, style, setCollapsed } = props;
   const theme = useWatchSystemTheme();
   const navigate = useNavigate();
   const location = useLocation();
@@ -51,16 +51,15 @@ export default function Sider(props: Iprops) {
         collapsible={!isLargerThanMinWidth}
         collapsed={collapsed}
         collapsedWidth={'100vw'}
-        width={(isLargerThanMinWidth ?? true) ? 150 : '100vw'}
+        width={isLargerThanMinWidth ? 150 : '100vw'}
         style={{
           overflow: "auto",
-          height: isLargerThanMinWidth ? "calc(100vh - 64px)" : (collapsed ? '0' : '100px'),
+          height: isLargerThanMinWidth ? "calc(100vh - 64px)" : (collapsed ? '0' : '100vh'),
           position: "absolute",
           top: 0,
           left: 0,
           bottom: 0,
           transition: 'all .5s ease',
-          border: '1px solid rgba(5, 5, 5, 0.06)',
           zIndex: 900,
           ...style,
         }}
@@ -73,7 +72,10 @@ export default function Sider(props: Iprops) {
           items={MenuList.map((item) => ({
             ...item,
             icon: <img src={(theme === 'dark' ? item.icon.dark : item.icon.light)} style={{ width: '12px', height: '12px' }} />,
-            onClick: ({ key }) => navigate(key),
+            onClick: ({ key }) => {
+              navigate(key)
+              !isLargerThanMinWidth && setCollapsed(true)
+            },
           }))}
           style={{ overflowY: "auto", backgroundColor: "transparent", border: 'none', padding: 0, margin: 0 }}
           mode="inline"
