@@ -19,7 +19,7 @@ export default function Navigator() {
           // boxShadow:
           //   "0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02)",
           width: "100%",
-          padding: '0 12px'
+          padding: '0 28px 0 12px'
         }}
       >
         <Header collapsed={collapsed} setCollapsed={setCollapsed} isLargerThanMinWidth={isLargerThanMinWidth} />

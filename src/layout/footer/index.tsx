@@ -10,7 +10,7 @@ export default function Footer(props: Iprops) {
 
   return (
     <Layout.Footer style={{ ...style }} className={className}>
-      <Divider style={{ fontSize: '15px', color: '#8a9099', fontWeight: 350 }}>欢迎使用，期待您的建议和反馈～</Divider>
+      <Divider style={{ fontSize: '15px', color: '#8a9099', fontWeight: 350 }}>欢迎使用，如果这个项目对您有帮助，请给我们一个 ⭐️</Divider>
       <Flex justify="center">
         Isotope Lab | 同位素实验室
       </Flex>
