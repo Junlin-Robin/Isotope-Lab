@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Version](https://img.shields.io/badge/version-0.0.4-blue.svg)](https://github.com/Junlin-Robin/quick-man)
+[![Version](https://img.shields.io/badge/version-0.0.6-blue.svg)](https://github.com/Junlin-Robin/quick-man)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Junlin-Robin/quick-man/blob/main/LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/react-18.2.0-61dafb.svg)](https://reactjs.org/)
@@ -252,7 +252,7 @@ quick-man/
         <sub><b>王俊霖</b></sub>
       </a>
       <br />
-      <sub>项目负责人、主要开发者</sub>
+      <sub>作者、主要开发者</sub>
     </td>
     <td align="center">
       <!-- <img src="https://github.com/haizhenwei.png" width="80px;" alt="Haizhen"/>
@@ -268,7 +268,7 @@ quick-man/
         <sub><b>魏海珍</b></sub>
       </a>
       <br />
-      <sub>算法、技术顾问</sub>
+      <sub>负责人、算法技术顾问</sub>
     </td>
     <td align="center">
       <a href="https://github.com/Geistesblitz7">
@@ -303,7 +303,7 @@ quick-man/
 
 ## 📮 联系我们
 
-- **作者**：魏海珍
+- **负责人**：魏海珍
 - **邮箱**：haizhenwei@nju.edu.cn
 - **项目主页**：[https://github.com/Junlin-Robin/Isotope-Lab](https://github.com/Junlin-Robin/Isotope-Lab)
 - **在线演示**：[https://junlin-robin.github.io/Isotope-Lab](https://junlin-robin.github.io/Isotope-Lab/)
