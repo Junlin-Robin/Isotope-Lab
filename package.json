@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.4",
   "type": "module",
-  "homepage": "https://junlin-robin.github.io/isotope-lab/",
+  "homepage": "https://junlin-robin.github.io/Isotope-Lab/",
   "engines": {
     "node": ">=18.0.0"
   },
