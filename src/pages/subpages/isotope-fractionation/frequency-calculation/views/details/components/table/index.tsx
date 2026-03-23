@@ -85,6 +85,8 @@ export default function FrequencyTableCard(props: IProps) {
                 <Button type="primary" icon={<DownloadOutlined />} onClick={downloadExcel}>导出数据</Button>
             }>
             <Table
+                bordered
+                size='small'
                 dataSource={data}
                 columns={columns}
                 rowKey={(item) => `${item.id}${item.kelvin}`}

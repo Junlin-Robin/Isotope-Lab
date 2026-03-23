@@ -13,7 +13,15 @@
     "url": "https://github.com/Junlin-Robin"
   },
   "contributors": [
-    "Zuofan 2239520855@qq.com (https://github.com/Geistesblitz7)"
+    {
+      "name": "Haizhen Wei",
+      "email": "haizhenwei@nju.edu.cn"
+    },
+    {
+      "name": "Zhuofan Zhao",
+      "email": "2239520855@qq.com",
+      "url": "https://github.com/Geistesblitz7"
+    }
   ],
   "description": "Quick calculation the isotope fractionation based on QM/MM",
   "keywords": [
